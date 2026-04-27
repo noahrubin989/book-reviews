@@ -88,6 +88,10 @@ function renderArticleBody(text) {
     if (trimmed.startsWith('## ')) return `<h2>${escapeHtml(trimmed.slice(3))}</h2>`;
     if (trimmed.startsWith('### ')) return `<h3>${escapeHtml(trimmed.slice(4))}</h3>`;
     if (trimmed.startsWith('> ')) return `<blockquote>${escapeHtml(trimmed.slice(2))}</blockquote>`;
+    const img = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (img) {
+      return `<figure class="post-figure"><img src="${escapeHtml(img[2])}" alt="${escapeHtml(img[1])}" loading="lazy">${img[1] ? `<figcaption>${escapeHtml(img[1])}</figcaption>` : ''}</figure>`;
+    }
     return `<p>${escapeHtml(trimmed).replace(/\n/g, '<br>')}</p>`;
   }).join('');
 }

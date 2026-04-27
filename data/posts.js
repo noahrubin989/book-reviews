@@ -4,9 +4,19 @@
 // re-renders automatically based on what's here.
 //
 // Body supports light markdown: ## heading, ### subheading,
-// > blockquote, and blank-line-separated paragraphs.
+// > blockquote, ![alt](image-path) for images, and
+// blank-line-separated paragraphs.
 // =============================================================
 const posts = [
+  {
+    title: "Prospect Theory",
+    date: "2026-04-27",
+    tags: ["Mental Models"],
+    excerpt: "The pain of losing is psychologically twice as powerful as the pleasure of gaining.",
+    body: `Prospect Theory is a behavioural economics concept that suggests that for individuals the pain of losing is psychologically twice as powerful as the pleasure of gaining.
+
+![Prospect theory value function](assets/images/posts/prospect-theory.png)`
+  },
   {
     title: "Welcome to the blog",
     date: "2026-04-27",
