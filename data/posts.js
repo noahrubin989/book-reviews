@@ -13,7 +13,7 @@ const posts = [
     date: "2026-04-27",
     tags: ["Mental Models"],
     excerpt: "The pain of losing is psychologically twice as powerful as the pleasure of gaining.",
-    body: `Prospect Theory is a behavioural economics concept that suggests that for individuals the pain of losing is psychologically twice as powerful as the pleasure of gaining.
+    body: `Prospect Theory is a behavioural economics concept that suggests the pain of losing is psychologically more than twice as powerful as the pleasure of gaining an equivalent amount.
 
 ![Prospect theory value function](assets/images/posts/prospect-theory.png)`
   },
