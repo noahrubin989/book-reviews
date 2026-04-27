@@ -6,18 +6,25 @@ A personal book review site — a curated shelf of books worth reading, with hon
 
 ## What's inside
 
-- `index.html` — animated landing page
-- `library.html` — the book grid, search, filters, and article view
-- `blog.html` — the blog: longer-form posts that aren't book reviews
-- `script.js` — book data and library logic
-- `posts.js` — blog post data
-- `blog.js` — blog logic
-- `styles.css` — shared library/blog styles
-- `landing.css` — landing page styles
+```
+.
+├── index.html        # animated landing page
+├── library.html      # book grid, search, filters, article view
+├── blog.html         # blog: longer-form posts
+├── assets/
+│   ├── landing.css
+│   └── styles.css    # shared library + blog styles
+├── data/
+│   ├── books.js      # book reviews — edit this to add a book
+│   └── posts.js      # blog posts — edit this to add a post
+└── js/
+    ├── library.js    # library logic
+    └── blog.js       # blog logic
+```
 
 ## Adding a book review
 
-Edit the `books` array at the top of `script.js`. Each entry takes:
+Edit the `books` array in `data/books.js`. Each entry takes:
 
 ```js
 {
@@ -37,7 +44,7 @@ Edit the `books` array at the top of `script.js`. Each entry takes:
 
 ## Adding a blog post
 
-Edit the `posts` array at the top of `posts.js`. Each entry takes:
+Edit the `posts` array in `data/posts.js`. Each entry takes:
 
 ```js
 {
