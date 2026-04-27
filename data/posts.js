@@ -9,6 +9,27 @@
 // =============================================================
 const posts = [
   {
+    title: "Perverse Incentives",
+    date: "2026-04-27",
+    tags: ["Mental Models"],
+    excerpt: "When the reward you offer ends up producing the exact problem you were trying to solve.",
+    body: `## Overview
+
+A perverse incentive is a particular type of incentive which produces an undesirable result that acts contrary to its original intention.
+
+Two really evident examples come to mind:
+
+### Cobra effect
+
+The British government were concerned about the number of venomous cobras in Delhi, hence they offered a bounty for every cobra killed. Initially this was successful, with large numbers of snakes killed for the reward. However, entrepreneurs began breeding cobras specifically to claim the bounty. When the government cancelled the programme, the now worthless snakes were released into the wild, exacerbating the problem significantly beyond its original scale.
+
+![](assets/images/posts/snake.jpeg)
+
+### The Great Hanoi Rat Massacre
+
+Hanoi, Vietnam, under French colonial rule (circa 1902) had a similar problem, but on this occasion concerning rats. A similar bounty programme was therefore introduced, whereby returning a severed rat tail as proof of a kill was met with monetary compensation. As people realised that only a rat tail was required, many began breeding rats to accumulate more tails to profit from the bounty. When the authorities became aware of the practice, the initiative was scrapped, and the now worthless rats were released back into the wild, multiplying the severity of the original problem.`
+  },
+  {
     title: "Prospect Theory",
     date: "2026-04-27",
     tags: ["Mental Models"],
