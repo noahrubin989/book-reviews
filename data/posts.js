@@ -9,11 +9,13 @@
 // =============================================================
 const posts = [
   {
-    title: "A note on simplicity",
+    title: "A Note on Simplicity",
     date: "2026-04-28",
     tags: ["Blog Post"],
     excerpt: "A handful of core principles tend to drive most of the outcome - in fitness, finance, friendship, and just about everywhere else.",
     body: `> What you need to do is identify the core principles - generally 3-12 of them that govern the field. The million things you thought you had to memorise are simply combinations of the core principles. - John Reed, Succeeding
+
+![Complex vs Simple](assets/images/posts/simple.png)
 
 Does the perceived complexity of a subject matter or goal hold us back, either from getting started or staying motivated enough to continue?
 
