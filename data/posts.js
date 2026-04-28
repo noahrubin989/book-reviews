@@ -9,6 +9,29 @@
 // =============================================================
 const posts = [
   {
+    title: "A note on simplicity",
+    date: "2026-04-28",
+    tags: ["Blog Post"],
+    excerpt: "A handful of core principles tend to drive most of the outcome — in fitness, finance, friendship, and just about everywhere else.",
+    body: `> What you need to do is identify the core principles — generally 3-12 of them that govern the field. The million things you thought you had to memorise are simply combinations of the core principles. — John Reed, Succeeding
+
+Does the perceived complexity of a subject matter or goal hold us back, either from getting started or staying motivated enough to continue?
+
+I'd say, 'yes'.
+
+The above quote is powerful because with so many real-life phenomenon you see this apply:
+
+- Around 90% of improving your body composition is just training with progressive overload, consistently hitting macros, hydrating and sleeping
+- In personal finance, spending less than what you earn, saving and investing the difference and being patient forms the vast majority of what is needed to succeed
+- Making friends as an adult comes down to very little apart from taking the first step (by initiating plans etc.), showing a genuine interest and not making communication too infrequent
+
+Why do we tend to overcomplicate it all? I like the way Morgan Housel puts it:
+
+> In most fields a handful of variables dictate the majority of outcomes. But paying attention to only those few variables can feel like you're leaving too much on the table.
+
+Simple is often the answer, or at worst, a far better starting point than we might have thought.`
+  },
+  {
     title: "Fluid vs Crystallised Intelligence",
     date: "2026-04-27",
     tags: ["Mental Models"],
