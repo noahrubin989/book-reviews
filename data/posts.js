@@ -12,7 +12,7 @@ const posts = [
     title: "I Have To vs I Get To",
     date: "2026-04-29",
     tags: ["Mental Models"],
-    excerpt: "A small but powerful reframing — swap 'I have to' for 'I get to' and watch the paradigm shift.",
+    excerpt: "A small but powerful reframe",
     body: `> "Everything can be taken from a man but one thing: the last of the human freedoms - to choose one's attitude in any given set of circumstances." - Viktor Frankl, Man's Search for Meaning
 
 This isn't toxic positivity but rather, a small but very powerful cognitive reframing technique to put things into perspective occasionally.
