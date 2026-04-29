@@ -1,6 +1,6 @@
 # Personal Knowledge Bank
 
-A personal blog and knowledge collection - longer-form notes on mental models and ideas worth keeping, alongside a shelf of books that have shaped the thinking.
+A personal blog and knowledge collection - longer-form notes on mental models and ideas worth keeping, alongside book reviews.
 
 **Live site:** https://noahrubin989.github.io/personal-knowledge-bank/
 
