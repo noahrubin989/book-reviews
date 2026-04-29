@@ -9,6 +9,23 @@
 // =============================================================
 const posts = [
   {
+    title: "My Opinion on Vibe Coding",
+    date: "2026-04-29",
+    tags: ["Blog Post"],
+    excerpt: "The barrier to building has never been lower, but fundamentals matter more than ever.",
+    body: `April 2026. These views are likely to get outdated fast, but here is a short stream of consciousness around what I have experienced around the current state of 'vibe coding', a term popularised around early 2025 around the usage and reliance on LLMs to generate, refine and ship code.
+
+## 1. The bar of entry has never been set lower
+
+The gap between imagination and implementation has never been slimmer. If you are someone with a vision who is motivated enough to start, in terms of prototyping an idea and developing a proof of concept (POC), the barrier is no longer whether you can code or not. That's simply been taken away, and the exploratory and early implementation phase of an idea has never been more democratised.
+
+## 2. Fundamentals matter more than ever
+
+Vibe coding tends to work well, until it doesn't. Until you need to scale for growing users, or meet enterprise-grade security requirements. Until you have to deeply understand why something is almost working, but not quite…or why that number you calculated has suddenly spiked or nose-dived without much surrounding knowledge or context. When you build something you fully understand based on the basis of first-principles thinking, there's a robustness to that; you build a complete mental model of each line of code…each minor component to your solution and an ability to be agile and change course if needed. It's when you can ground yourself in the fundamentals that AI really has a profound impact, particularly in terms of generating boilerplate, planning, introducing you to new ideas and performing/suggesting QA checks.
+
+More to come…`
+  },
+  {
     title: "A Note on Simplicity",
     date: "2026-04-28",
     tags: ["Blog Post"],
