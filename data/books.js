@@ -39,7 +39,24 @@ const books = [
     pages: 443,
     yearRead: 2026,
     review: `Add your short review here - a paragraph or two that shows up in the modal preview.`,
-    fullReview: `## 1. Human helplessness built our extraordinary social abilities
+    fullReview: `Sapiens can be summarised by four key themes:
+
+1. The Cognitive Revolution
+2. The Agricultural Revolution
+3. The Unification of Humankind
+4. The Scientific Revolution
+
+## The Cognitive Revolution
+
+The cognitive revolution signified an emergence in new ways of thinking and communicating between 70,000 and 30,000 years ago. In this period we developed the ability to:
+
+1. **Information about the physical world.** We could plan and carry out tasks like avoiding predators and hunting prey.
+2. **Information about social dynamics.** We could communicate who to trust and who's responsible for what within the group, giving us the ability to form wider, more cohesive social networks.
+3. **Information about things that don't exist**, like spirits, nations, and human rights. Strangers no longer needed to know or trust each other, just believe the same story, eventually unlocking cooperation at the scale of cities, nations, and empires.
+
+The interesting point is that we don't exactly know the catalyst of the cognitive revolution, though understanding its impacts is what's important here.
+
+## 1. Human helplessness built our extraordinary social abilities
 
 It sounds like a paradox, but it's true: our helplessness as infants is one of the reasons humans became so socially gifted. Unlike a foal that can trot within hours of birth, or a kitten that's foraging alone within weeks, human babies are born radically underdeveloped and highly dependent on others for food, protection, and education.
 
