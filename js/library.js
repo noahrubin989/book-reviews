@@ -115,8 +115,13 @@ function openModal(index) {
   document.body.style.overflow = 'hidden';
 }
 
+function renderInline(str) {
+  // Escape first, then apply inline markdown (bold) on the safe string.
+  return escapeHtml(str).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+}
+
 function renderArticleBody(text) {
-  // Lightweight markdown: ## headings, blank-line paragraphs, > blockquotes.
+  // Lightweight markdown: ## headings, blank-line paragraphs, > blockquotes, lists.
   const blocks = text.split(/\n\s*\n/);
   return blocks.map(block => {
     const trimmed = block.trim();
@@ -130,7 +135,16 @@ function renderArticleBody(text) {
     if (trimmed.startsWith('> ')) {
       return `<blockquote>${escapeHtml(trimmed.slice(2))}</blockquote>`;
     }
-    return `<p>${escapeHtml(trimmed).replace(/\n/g, '<br>')}</p>`;
+    const lines = trimmed.split('\n');
+    if (lines.every(l => /^\d+\.\s/.test(l.trim()))) {
+      const items = lines.map(l => `<li>${renderInline(l.trim().replace(/^\d+\.\s/, ''))}</li>`).join('');
+      return `<ol>${items}</ol>`;
+    }
+    if (lines.every(l => /^[-•]\s/.test(l.trim()))) {
+      const items = lines.map(l => `<li>${renderInline(l.trim().replace(/^[-•]\s/, ''))}</li>`).join('');
+      return `<ul>${items}</ul>`;
+    }
+    return `<p>${renderInline(trimmed).replace(/\n/g, '<br>')}</p>`;
   }).join('');
 }
 
