@@ -23,6 +23,34 @@ const books = [
     review: `Add your short review here - a paragraph or two that shows up in the modal preview.`
   },
   {
+    title: "The Obstacle Is the Way",
+    author: "Ryan Holiday",
+    genre: "Self-Help",
+    rating: 5,
+    pages: 224,
+    yearRead: 2026,
+    review: `Add your short review here - a paragraph or two that shows up in the modal preview.`,
+    fullReview: `Here is my breakdown of the book *The Obstacle Is the Way* by Ryan Holiday.
+
+All in all a really solid read with a lot of practical insights.
+
+Here were the concepts I found most pertinent.
+
+## The Concept of Apatheia
+
+Holiday references NASA's mission to send the first men into space, and how the most trained and valued skill was "the art of not panicking", and soon after introduces the concept of *apatheia* (different to apathy), *apatheia* being the state of being free from irrational or extreme emotions.
+
+Not all emotions...
+
+Just the harmful and unhelpful ones that cause "disturbance and perturbation" as Holiday quotes.
+
+This matters because panic erodes judgement and strips people of control over their own actions.
+
+The takeaway here is that unexpected situations befall all of us, and emotions naturally follow, but it's critical that the emotions felt don't hijack our judgment about how to respond / what to do next.
+
+Being 'free' of these extreme emotions is not about ignoring or eliminating them, but is more about the control and domestication of them.`
+  },
+  {
     title: "Same as Ever",
     author: "Morgan Housel",
     genre: "Personal Finance",
@@ -83,7 +111,23 @@ The discovery and domestication of fire proved to be an immense force contributi
 • Further protection from predators - humans didn't need to resort to other methods such as climbing trees or staying constantly vigilant
 • A more nutrient dense palate that also killed germs
 
-And perhaps most importantly, fire gave us the ability to exert power beyond merely our physical form, unlike other animals. Most animals are stuck working within the limits of their own bodies. A bird can only fly as high as its wings and the wind allow. Fire broke that constraint for humans entirely. It didn't matter how strong or fast you were; a single person with a flint could reshape a landscape, clearing forests or driving off predators, in a way no other creature could match through physical ability alone. For the first time, power wasn't tied to the body at all.`
+And perhaps most importantly, fire gave us the ability to exert power beyond merely our physical form, unlike other animals. Most animals are stuck working within the limits of their own bodies. A bird can only fly as high as its wings and the wind allow. Fire broke that constraint for humans entirely. It didn't matter how strong or fast you were; a single person with a flint could reshape a landscape, clearing forests or driving off predators, in a way no other creature could match through physical ability alone. For the first time, power wasn't tied to the body at all.
+
+## Additional Ideas
+
+### Credit let us borrow from a future that doesn't exist yet
+
+For most of history, money could only represent what already existed. If you wanted to start a business that cost $1,000, you needed $1,000 in hand - today, not eventually.
+
+This put a hard ceiling on ambition: plenty of good ideas never got built, simply because the money for them didn't yet exist.
+
+Credit changed that.
+
+It let people finance the present using wealth that didn't exist yet - a bet that the future would be richer than the now. Here's what that shift looked like, before and after:
+
+![Before and after credit: money could only represent what already existed, versus credit letting people borrow against future wealth](assets/images/posts/credit.svg)
+
+None of this works without one underlying belief: that progress, meaning new discoveries, inventions, and ways of operating, can actually grow the pie, not just redistribute it.`
   },
   {
     title: "Beyond Order: 12 More Rules for Life",

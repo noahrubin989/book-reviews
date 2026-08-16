@@ -378,6 +378,13 @@ html, body {
   font-weight: 600;
 }
 
+.article-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.75rem auto;
+}
+
 .article-content blockquote {
   border-left: 4px solid var(--accent);
   margin: 1.75rem 0;
